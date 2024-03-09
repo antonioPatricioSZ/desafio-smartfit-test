@@ -1,0 +1,114 @@
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    border-radius: 18px;
+    border: 4px solid #ededed;
+    padding: 1.5rem;
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.formIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    gap: 0.5rem;
+    color: var(--light-grey);
+}
+
+.formIcon img {
+    height: 2rem;
+}
+
+.formGroup h3 {
+    font-size: 1.5rem;
+    color: #8b8b8b;
+    font-weight: 300;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+  
+.radioWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+    padding: 8px 4px;
+  
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    color: var(--medium-text);
+}
+  
+.radioWrapper:nth-last-child(3) {
+    border-bottom: 1px solid #e5e5e5;
+}
+  
+.radioWrapper span {
+    position: absolute;
+    right: 0px;
+}
+
+
+.btnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+}
+
+
+.btn {
+    padding: 14px 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 32%;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    color: var(--dark-grey);
+    cursor: pointer;
+}
+
+.btnPrymary {
+    background-color: var(--yellow);
+}
+
+.btnSecondary {
+    border: 2px solid #e5e5e5;
+    background: transparent;
+}
+
+.checkboxWrapper {
+    color: var(--dark-grey);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.checkboxWrapper span {
+    position: absolute;
+    right: 0;
+}
+
+.radioWrapper input {
+    height: 1.5rem;
+    width: 1.5em;
+}
+
+.radioWrapper label {
+    color: #8b8b8b;
+    margin-left: 0.5rem;
+}
+
+.radioWrapper span {
+    color: #8b8b8b;
+}

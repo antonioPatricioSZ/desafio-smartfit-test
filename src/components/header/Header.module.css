@@ -17,6 +17,10 @@ header {
     padding: 1.5rem;
 }
 
+.logoContainer img {
+    height: 100px;
+}
+
 .textContainer {
     display: flex;
     flex-direction: column;
